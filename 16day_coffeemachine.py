@@ -70,9 +70,7 @@ def is_report(ask):
 
     return f"Here is your {ask}. Enjoy! Your change: ${change}"
 
-
 on = True
-
 while on:
     ask = input("What would you like? (espresso/latte/cappuccino): ").lower()
     

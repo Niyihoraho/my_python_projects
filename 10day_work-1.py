@@ -14,8 +14,7 @@ def is_leap(year):
   else:
     return "Not leap year"
 
-result= is_leap(2023)
-print(result)  
+
 
 def days_in_month(year_test,month_test):
   month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
